@@ -3,6 +3,7 @@ name: Veracode Build Artifact
 run-name: Veracode Build Artifact
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [veracode-build]
 
